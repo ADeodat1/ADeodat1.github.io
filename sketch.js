@@ -4,5 +4,11 @@ createCanvas(600, 600);
 
 
 function draw() {
- ellipse(50, 50, 50, 50);
+ rect(mouseX, mouseY, 75, 75)
+if (mouseX > 300) {
+  fill('rgba(50%,0%,0%,.6)')
+}
+else {
+  fill('rgba(0%,10%,50%,.6)')
+}
 }
